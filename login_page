@@ -1,2 +1,9 @@
 hello this is the login page 
-welcome to our website 
+
+username = input("Enter username: ")
+password = input("Enter password: ")
+
+if username == "admin" and password == "1234":
+    print("Login Successful!")
+else:
+    print("Invalid Username or Password!")
